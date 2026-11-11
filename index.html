@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Misinformation Matters — Research Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-mark" aria-hidden="true">◎</div>
+    <div>
+      <p class="eyebrow">A short media-literacy experiment</p>
+      <h1>Misinformation Matters</h1>
+      <p class="tagline">Look closely. Check the source. Think before you share.</p>
+    </div>
+  </header>
+
+  <main class="shell">
+    <nav class="progress-wrap" aria-label="Experiment progress">
+      <div class="progress-labels">
+        <span id="step-label">Pre-game questions</span>
+        <span id="progress-count">Step 1 of 4</span>
+      </div>
+      <div class="progress-track"><div id="progress-bar"></div></div>
+    </nav>
+
+    <section id="app" class="panel" aria-live="polite">
+      <div class="intro">
+        <span class="kicker">WELCOME</span>
+        <h2>Can you tell when an image is misleading?</h2>
+        <p>In this activity, you’ll answer four questions, play a short misinformation-detection game, review a learning guide, and answer four new questions.</p>
+        <div class="notice"><strong>Research note:</strong> This game uses a fictional celebrity and a clearly labeled simulated social-media post. It does not depict a real person or claim that a real event happened.</div>
+        <ul class="plain-list">
+          <li>There are no personal details requested.</li>
+          <li>Your answers are scored for learning, not for judgment.</li>
+          <li>At the end, you can download two CSV files containing your results.</li>
+        </ul>
+        <button id="start-btn" class="primary">Begin experiment <span aria-hidden="true">→</span></button>
+      </div>
+    </section>
+
+    <footer>
+      <span>Educational demonstration · Fictional examples</span>
+      <span>Your results stay in this browser unless you download them.</span>
+    </footer>
+  </main>
+</body>
+</html>
